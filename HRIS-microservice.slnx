@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/CoreHR/">
+    <Project Path="src/Services/CoreHR/Hris.CoreHR.Api/Hris.CoreHR.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Recruitment/">
+    <Project Path="src/Services/Recruitment/Hris.Recruitment.Api/Hris.Recruitment.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Hris.Shared.Contracts/Hris.Shared.Contracts.csproj" />
+  </Folder>
+</Solution>
