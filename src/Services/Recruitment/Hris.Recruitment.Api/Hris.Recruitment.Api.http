@@ -1,6 +1,11 @@
-@Hris.Recruitment.Api_HostAddress = http://localhost:5022
+POST http://localhost:5022/api/candidates/hire
+Content-Type: application/json
 
-GET {{Hris.Recruitment.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
+{
+  "fullName": "Nguyen Van A",
+  "email": "nguyenvana@momo.vn",
+  "position": "Senior .NET Developer",
+  "branchCode": "HN_OFFICE",
+  "baseSalary": 45000000,
+  "expectedStartDate": "2026-10-01T08:30:00Z"
+}
